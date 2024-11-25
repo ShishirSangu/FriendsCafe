@@ -1,0 +1,534 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Frds Cafe & Chats</title>
+    <link rel="stylesheet" href="./index.css" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
+      crossorigin="anonymous"
+    />
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <div>
+      <nav class="navbar bg-body-tertiary fixed-top">
+        <div class="container-fluid">
+          <a class="navbar-brand ms-3" href="#">ನಮ್ಮ ಐಕ್ಳು</a>
+          <button
+            class="navbar-toggler me-3"
+            type="button"
+            data-bs-toggle="offcanvas"
+            data-bs-target="#offcanvasNavbar"
+            aria-controls="offcanvasNavbar"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div
+            class="offcanvas offcanvas-end"
+            tabindex="-1"
+            id="offcanvasNavbar"
+            aria-labelledby="offcanvasNavbarLabel"
+          >
+            <div class="offcanvas-header">
+              <h5 class="offcanvas-title" id="offcanvasNavbarLabel">
+                Frds Cafe & Chats
+              </h5>
+              <button
+                type="button"
+                class="btn-close"
+                data-bs-dismiss="offcanvas"
+                aria-label="Close"
+              ></button>
+            </div>
+            <div class="offcanvas-body">
+              <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+                <li class="nav-item">
+                  <a class="nav-link active" aria-current="page" href="#"
+                    >About</a
+                  >
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Location</a>
+                </li>
+                <li class="nav-item dropdown">
+                  <a
+                    class="nav-link dropdown-toggle"
+                    href="#"
+                    role="button"
+                    data-bs-toggle="dropdown"
+                    aria-expanded="false"
+                  >
+                    Menu
+                  </a>
+                  <ul class="dropdown-menu">
+                    <li><a class="dropdown-item" href="#">Coffee / Tea</a></li>
+                    <li>
+                      <a class="dropdown-item" href="#">Chats</a>
+                    </li>
+                    <li><a class="dropdown-item" href="#">Snacks</a></li>
+                    <li>
+                      <a class="dropdown-item" href="#">Fresh Fruit Juice</a>
+                    </li>
+                    <li><a class="dropdown-item" href="#">Burger</a></li>
+                    <li>
+                      <a class="dropdown-item" href="#">Milk shakes</a>
+                    </li>
+                    <li><a class="dropdown-item" href="#">Eggs</a></li>
+                    <li>
+                      <a class="dropdown-item" href="#">Rolls and Wraps</a>
+                    </li>
+                    <!-- <li>
+                      <hr class="dropdown-divider" />
+                    </li>
+                    <li>
+                      <a class="dropdown-item" href="#">Something else here</a>
+                    </li> -->
+                  </ul>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </nav>
+    </div>
+    <br />
+    <br /><br />
+    <br />
+
+    <h1 class="frids">FRIENDS CAFE AND CHATS</h1>
+    <div>
+      <div class="container text-center mt-5">
+        <div class="row row-cols-4 gap-5 justify-content-center">
+          <div class="card col" style="width: 18rem">
+            <img
+              src="./Assets/image1.jpeg"
+              class="card-img-top"
+              alt="image not found"
+            />
+            <div class="card-body">
+              <h5 class="card-title">Coffee / Tea</h5>
+              <p class="card-text">Click below to see price</p>
+              <a href="#cf" class="btn btn-primary">Check Here</a>
+            </div>
+          </div>
+          <div class="card col" style="width: 18rem">
+            <img
+              src="./Assets/image2.jpeg"
+              class="card-img-top"
+              alt="image not found"
+            />
+            <div class="card-body">
+              <h5 class="card-title">Chats</h5>
+              <p class="card-text">Click below to see price</p>
+              <a href="#Chats" class="btn btn-primary">Check Here</a>
+            </div>
+          </div>
+          <div class="card col" style="width: 18rem">
+            <img
+              src="./Assets/image3.jpeg"
+              class="card-img-top"
+              alt="image not found"
+            />
+            <div class="card-body">
+              <h5 class="card-title">Snacks</h5>
+              <p class="card-text">Click below to see price</p>
+              <a href="#Snacks" class="btn btn-primary">Check Here</a>
+            </div>
+          </div>
+          <div class="card col" style="width: 18rem">
+            <img
+              src="./Assets/image4.jpeg"
+              class="card-img-top"
+              alt="image not found"
+            />
+            <div class="card-body">
+              <h5 class="card-title">Fresh Fruit Juice</h5>
+              <p class="card-text">Click below to see price</p>
+              <a href="#Fruit" class="btn btn-primary">Check Here</a>
+            </div>
+          </div>
+          <div class="card col" style="width: 18rem">
+            <img
+              src="./Assets/image5.jpeg"
+              class="card-img-top"
+              alt="image not found"
+            />
+            <div class="card-body">
+              <h5 class="card-title">Burger</h5>
+              <p class="card-text">Click below to see price</p>
+              <a href="#Burger" class="btn btn-primary">Check Here</a>
+            </div>
+          </div>
+          <div class="card col" style="width: 18rem">
+            <img
+              src="./Assets/image6.jpeg"
+              class="card-img-top"
+              alt="image not found"
+            />
+            <div class="card-body">
+              <h5 class="card-title">Milk shakes</h5>
+              <p class="card-text">Click below to see price</p>
+              <a href="#shakes" class="btn btn-primary">Check Here</a>
+            </div>
+          </div>
+          <div class="card col" style="width: 18rem">
+            <img
+              src="./Assets/image7.jpeg"
+              class="card-img-top"
+              alt="image not found"
+            />
+            <div class="card-body">
+              <h5 class="card-title">Eggs</h5>
+              <p class="card-text">Click below to see price</p>
+              <a href="#Eggs" class="btn btn-primary">Check Here</a>
+            </div>
+          </div>
+          <div class="card col" style="width: 18rem">
+            <img
+              src="./Assets/image8.jpeg"
+              class="card-img-top"
+              alt="image not found"
+            />
+            <div class="card-body">
+              <h5 class="card-title">Rolls and Wraps</h5>
+              <p class="card-text">Click below to see price</p>
+              <a href="#Rolls" class="btn btn-primary">Check Here</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <br id="cf" />
+    <br /><br />
+
+    <h1>Coffee / Tea</h1>
+    <table>
+      <thead>
+        <tr>
+          <th>Item Name</th>
+          <th>Price (₹)</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>Filter Coffee</td>
+          <td>10 ₹</td>
+        </tr>
+        <tr>
+          <td>Cold Coffee</td>
+          <td>40 ₹</td>
+        </tr>
+        <tr>
+          <td>Tea</td>
+          <td>10 ₹</td>
+        </tr>
+        <tr>
+          <td>Boost</td>
+          <td>20 ₹</td>
+        </tr>
+        <tr>
+          <td>Horlicks</td>
+          <td>20 ₹</td>
+        </tr>
+        <tr>
+          <td>Lemon Tea</td>
+          <td>10 ₹</td>
+        </tr>
+        <tr>
+          <td>Ginger Tea</td>
+          <td>10 ₹</td>
+        </tr>
+        <tr>
+          <td>Badam Milk</td>
+          <td>15 ₹</td>
+        </tr>
+      </tbody>
+    </table>
+    <br id="Chats" /><br /><br />
+
+    <h1>Chats</h1>
+    <table>
+      <thead>
+        <tr>
+          <th>Item Name</th>
+          <th>Price (₹)</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>Churumuri</td>
+          <td>15 ₹</td>
+        </tr>
+        <tr>
+          <td>Moong Masala</td>
+          <td>25 ₹</td>
+        </tr>
+        <tr>
+          <td>Nippattu Masala</td>
+          <td>25 ₹</td>
+        </tr>
+        <tr>
+          <td>Congress Masala</td>
+          <td>25 ₹</td>
+        </tr>
+        <tr>
+          <td>Corn Masala</td>
+          <td>30 ₹</td>
+        </tr>
+        <tr>
+          <td>Tomato Slice</td>
+          <td>30 ₹</td>
+        </tr>
+        <tr>
+          <td>Capsicum Masala</td>
+          <td>20 ₹</td>
+        </tr>
+        <tr>
+          <td>Chilli Bonda</td>
+          <td>20 ₹</td>
+        </tr>
+        <tr>
+          <td>Potato Masala Bonda</td>
+          <td>20 ₹</td>
+        </tr>
+      </tbody>
+    </table>
+    <br id="Snacks" /><br /><br />
+
+    <h1>Snacks</h1>
+    <table>
+      <thead>
+        <tr>
+          <th>Item Name</th>
+          <th>Price (₹)</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>Samosa</td>
+          <td>30 ₹</td>
+        </tr>
+        <tr>
+          <td>French Fries</td>
+          <td>40 ₹</td>
+        </tr>
+        <tr>
+          <td>Veg Sandwich</td>
+          <td>40 ₹</td>
+        </tr>
+        <tr>
+          <td>Corn Sandwich</td>
+          <td>50 ₹</td>
+        </tr>
+        <tr>
+          <td>Cheese Sandwich</td>
+          <td>50 ₹</td>
+        </tr>
+        <tr>
+          <td>Egg Sandwich</td>
+          <td>50 ₹</td>
+        </tr>
+        <tr>
+          <td>Paneer Sandwich</td>
+          <td>60 ₹</td>
+        </tr>
+        <tr>
+          <td>Mushroom Sandwich</td>
+          <td>60 ₹</td>
+        </tr>
+        <tr>
+          <td>Potato Twister</td>
+          <td>40 ₹</td>
+        </tr>
+        <tr>
+          <td>Maggie</td>
+          <td>40 ₹</td>
+        </tr>
+      </tbody>
+    </table>
+    <br id="Fruit" /><br /><br />
+
+    <h1>Fresh Fruit juice</h1>
+    <table>
+      <thead>
+        <tr>
+          <th>Item Name</th>
+          <th>Price (₹)</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>Lime Juice</td>
+          <td>20 ₹</td>
+        </tr>
+        <tr>
+          <td>Masala Soda</td>
+          <td>20 ₹</td>
+        </tr>
+        <tr>
+          <td>Lime Soda</td>
+          <td>20 ₹</td>
+        </tr>
+        <tr>
+          <td>Musambi</td>
+          <td>30 ₹</td>
+        </tr>
+        <tr>
+          <td>Orange</td>
+          <td>30 ₹</td>
+        </tr>
+        <tr>
+          <td>Pineapple</td>
+          <td>40 ₹</td>
+        </tr>
+        <tr>
+          <td>Watermelon</td>
+          <td>25 ₹</td>
+        </tr>
+        <tr>
+          <td>Grapes</td>
+          <td>30 ₹</td>
+        </tr>
+        <tr>
+          <td>Apple</td>
+          <td>40 ₹</td>
+        </tr>
+      </tbody>
+    </table>
+    <br id="Burger" /><br /><br />
+
+    <h1>Burger</h1>
+    <table>
+      <thead>
+        <tr>
+          <th>Item Name</th>
+          <th>Price (₹)</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>Veg Burger</td>
+          <td>50 ₹</td>
+        </tr>
+        <tr>
+          <td>Paneer Burger</td>
+          <td>60 ₹</td>
+        </tr>
+        <tr>
+          <td>Egg Burger</td>
+          <td>60 ₹</td>
+        </tr>
+      </tbody>
+    </table>
+    <br id="shakes" /><br /><br />
+
+    <h1>Milk shakes</h1>
+    <table>
+      <thead>
+        <tr>
+          <th>Item Name</th>
+          <th>Price (₹)</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>Vanilla</td>
+          <td>60 ₹</td>
+        </tr>
+        <tr>
+          <td>Strawberry</td>
+          <td>60 ₹</td>
+        </tr>
+        <tr>
+          <td>Butterscotch</td>
+          <td>60 ₹</td>
+        </tr>
+        <tr>
+          <td>Black Current</td>
+          <td>70 ₹</td>
+        </tr>
+        <tr>
+          <td>Banana</td>
+          <td>50 ₹</td>
+        </tr>
+        <tr>
+          <td>Mix Fruit</td>
+          <td>60 ₹</td>
+        </tr>
+      </tbody>
+    </table>
+    <br id="Eggs" /><br /><br />
+
+    <h1>Eggs</h1>
+    <table>
+      <thead>
+        <tr>
+          <th>Item Name</th>
+          <th>Price (₹)</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>Boiled Egg</td>
+          <td>10 ₹</td>
+        </tr>
+        <tr>
+          <td>Amlate</td>
+          <td>20/30 ₹</td>
+        </tr>
+        <tr>
+          <td>Half Boil</td>
+          <td>10 ₹</td>
+        </tr>
+      </tbody>
+    </table>
+    <br id="Rolls" /><br /><br />
+
+    <h1>Rolls and wraps</h1>
+    <table>
+      <thead>
+        <tr>
+          <th>Item Name</th>
+          <th>Price (₹)</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>Veg Wrap</td>
+          <td>40 ₹</td>
+        </tr>
+        <tr>
+          <td>Egg Wrap</td>
+          <td>50 ₹</td>
+        </tr>
+        <tr>
+          <td>Mushroom Wrap</td>
+          <td>50 ₹</td>
+        </tr>
+        <tr>
+          <td>Corn Wrap</td>
+          <td>50 ₹</td>
+        </tr>
+      </tbody>
+    </table>
+
+    <br /><br /><br />
+
+    <div style="background-color: dodgerblue">
+      <div class="container5">
+        <img src="./Assets/Namma_iklu.png" alt="" />
+        <h4>Bandu Thindu Nodi</h4>
+      </div>
+    </div>
+  </body>
+</html>

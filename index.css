@@ -1,0 +1,56 @@
+html,
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.frids {
+  font-size: 6vw;
+  text-align: center;
+  text-shadow: 3px 3px 3px rgb(25, 136, 201), -3px -3px 5px rgb(114, 25, 152);
+  color: rgb(23, 23, 20);
+}
+
+.container5 {
+  padding-top: 5%;
+}
+
+.container5 img {
+  width: 7%;
+  height: 7%;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  margin: auto;
+}
+
+.container5 h4 {
+  margin-top: 2%;
+  text-align: center;
+  padding-bottom: 5%;
+}
+
+/*  Table  */
+
+table {
+  border-collapse: collapse;
+  width: 60%;
+  margin: 20px auto;
+  text-align: left;
+}
+th,
+td {
+  border: 1px solid #ddd;
+  text-align: center;
+  padding: 8px;
+  padding: 3%;
+}
+thead th {
+  background-color: #f4f4f4;
+  text-align: center;
+}
+
+/*  H1 */
+h1 {
+  text-align: center;
+}
